@@ -37,7 +37,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Setup Geode SDK
-        uses: geode-sdk/setup-geode@v3
+        uses: geode-sdk/setup-geode@main
 
       - name: Build UI Customer
         uses: geode-sdk/build-geode-mod@main
