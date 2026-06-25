@@ -37,7 +37,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Setup Geode SDK
-        uses: geode-sdk/setup-geode@main
+        uses: geode-sdk/setup-geode@v2
 
       - name: Build UI Customer
         uses: geode-sdk/build-geode-mod@main
@@ -58,3 +58,4 @@ jobs:
         with:
           name: UI Customer Output
           path: ${{ steps.build.outputs.build-output }}
+}
